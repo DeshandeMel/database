@@ -1,0 +1,65 @@
+1. Introduction
+2. Provision ADB
+3. Mongo Installation
+4. Ingest Data
+5. Vector Index
+6. Beyond Mongo
+
+To-dos:
+- Fix Wikipedia Scrapper
+- Update Livelab
+    - (Done) Introduction
+    - Integrate ONNX models
+        - Ingest Data - Create Embedded Vectors with ONNX models (Aleks)
+        - Vector-Index - Create Embedded Query Vector with ONNX model
+    - Focus on Educational Focus of Livelab
+        - Add educational, comprehensive explanation of Vector Search
+        - Add visuals of HNSW and RAG
+        - Explain use of varying similarity 
+- (Done) Review Aleks Presentations on HVI
+    - (Done) Create Beyond Mongo Outline / Plan
+- Message Madhu about finding Livelabs for reference
+(Done) Set-up Regina Zoom for 10am Thursday via Outlook
+    - (Done) Send Slack message
+- Oracle Software Security Assurance (OSSA)
+- Ask Massimo/Hari About whether ONNX models are at par for Livelab
+- (Done) Discuss ONNX models with Hari
+
+
+- MongoAPI testing w/ free Mongo Capbilities using VNC 
+- Livelab Presentation 
+    - Create Demo for Livelab Presentation
+- August 1st Present Livelab
+    - (Wow Moment)
+
+
+
+Outline:
+Lab 1 (Introduction):
+Set expectation that MongoAPI allows us to do the same and more than Mongo. 
+Set expectation that they will learn about AI Vector Search and how to conduct it using the MongoAPI.
+
+Get Started — *Recycled:
+Create Oracle Free Tier Account                                                                                                                                                                                                                                                                        
+
+Lab 2 (Provision ADW) — *Recycled:
+Provisioning an autonomous database instance
+
+Lab 3 (Mongo Installation) — *Partially Recycled:
+Acquire Mongoshell and Mongo Import
+
+Lab 4 (Ingest Data) — *Partially Recycled:
+Contains Downloadable JSON file of books dataset scraped from Wikipedia
+Create Vector Embeddings on "plot" field of book database using ONNX model in SQL
+Connect to Mongo URI and Ingest Data with Mongo API
+
+Lab 5 (Vector Index):
+Create Vector Index upon "plot_embedding" field through Mongo API
+Query the Vector Index with a provided query prompt
+
+Lab 6 (Beyond Mongo):
+Establish Oracle Database superior Hybrid Vector Index which combines text and vector indexing in one table
+Create Hybrid Vector Index using Dollar SQL
+Create Query Vector using ONNX model in SQL
+Query the Vector Index with vector ascertained through in-database ONNX model
+Summarize Learnings and Oracle Database API for Mongo Capabilities

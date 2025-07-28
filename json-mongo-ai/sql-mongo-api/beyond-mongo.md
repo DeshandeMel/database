@@ -4,7 +4,7 @@ output:
   html_document: default
 ---
 
-# Beyond Mongo with Dollar SQL
+# Beyond Mongo with $ SQL
 
 ## Introduction
 
@@ -23,6 +23,12 @@ In this lab you will:
 * Connected to your Autonomous Database through MongoDB Shell
 
 ## Task 1: Go Beyond Mongo with Dollar SQL
+
+    ```
+    <copy>
+
+    </copy>
+    ```
 
 ## Task 2: Recap of Accomplishments
 
